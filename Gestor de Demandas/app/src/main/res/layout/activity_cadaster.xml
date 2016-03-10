@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jpadm.projetoinicial.views.CadasterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/layout_Style_text_view"
+                    android:text="@string/name_gp" />
+
+                <Spinner
+                    android:id="@+id/gp_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                </Spinner>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/layout_Style_text_view"
+                    android:text="@string/number_of"
+
+                    />
+
+                <EditText
+                    android:id="@+id/et_number_of"
+                    style="@style/layout_Style_edit_text"
+                    android:inputType="number" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/layout_Style_text_view"
+                    android:text="@string/title_of" />
+
+                <EditText
+                    android:id="@+id/et_title_of"
+                    style="@style/layout_Style_edit_text"
+                    android:inputType="text" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/layout_Style_text_view"
+                    android:text="@string/status" />
+
+                <Spinner
+                    android:id="@+id/sp_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/status_demanda" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/layout_Style_text_view"
+                    android:text="@string/responsible" />
+
+                <EditText
+                    android:id="@+id/et_responsible"
+                    style="@style/layout_Style_edit_text"
+                    android:inputType="text" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/layout_Style_text_view"
+                    android:text="@string/deadline" />
+
+                <EditText
+                    android:id="@+id/et_deadline"
+                    style="@style/layout_Style_edit_text"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:hint="Selecione uma data"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearObs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/layout_Style_text_view"
+                    android:text="@string/observation"
+
+                    />
+
+                <EditText
+                    android:id="@+id/et_observation"
+                    style="@style/layout_Style_edit_text" />
+
+
+            </LinearLayout>
+
+            <ToggleButton
+                android:id="@+id/toggle_obs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
