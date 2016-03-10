@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">GuiaDePaises</string>
+    <string name="button_string">Clica em mim</string>
+    <string name="exibir_lista">Exibir Lista</string>
+    <string name="exibir_grade">Exibir Grade</string>
+
+    <string name="capital">Capital: </string>
+    <string name="language">Language: </string>
+
+    <string name="bra_name">Brazil</string>
+    <string name="bra_capital">Brasilia</string>
+    <string name="bra_language">Portuguese</string>
+    <string name="bra_currency">BR Real</string>
+    <string name="bra_bio">Brazil is a country localizated in South America</string>
+
+    <string name="arg_name">Argentina</string>
+    <string name="arg_capital">Buenos Aires</string>
+    <string name="arg_language">Spanish</string>
+    <string name="arg_currency">Peso</string>
+    <string name="arg_bio">Argentina is a country localizated in South America</string>
+
+
+    <string name="spa_name">Spain</string>
+    <string name="spa_capital">Madrid</string>
+    <string name="spa_language">Spanish</string>
+    <string name="spa_currency">Euro</string>
+    <string name="spa_bio">Spain is a country localizated in Europe</string>
+
+
+    <string name="ger_name">Germany</string>
+    <string name="ger_capital">Berlim</string>
+    <string name="ger_language">German</string>
+    <string name="ger_currency">Euro</string>
+    <string name="ger_bio">Germany is a country localizated in Europe</string>
+
+
+    <string name="mex_name">Mexico</string>
+    <string name="mex_capital">Mexico City</string>
+    <string name="mex_language">Spanish</string>
+    <string name="mex_currency">Peso</string>
+    <string name="mex_bio">Mexico is a country localizated in North America</string>
+
+
+
+    <string name="usa_name">United States of America</string>
+    <string name="usa_capital">Washington</string>
+    <string name="usa_language">English</string>
+    <string name="usa_currency">Dolar</string>
+    <string name="usa_bio">United States of Americais a country localizated in North America</string>
+
+
+</resources>
